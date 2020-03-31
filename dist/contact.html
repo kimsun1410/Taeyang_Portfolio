@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+    <head>   
+        <title>TaeYang. Portfolio</title>   
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+        <meta name="title" content="Creative UX&UI Front end Developer - TaeYang. Portfolio">
+        <meta name="description" content="Creative UX&UI Front end Developer">
+        <meta name="keywords" content="Publisher, UX&UI, Front end Developer, web, app">
+        <meta name="og:type" property="og:type" content="Website & Mobile">
+        <meta name="og:url" property="og:url" content="https://kimsun1410.github.io/portfolio">
+        <meta name="og:image" property="og:image" content="https://kimsun1410.github.io/portfolio/images/favi.png">
+        <meta name="og:title" property="og:title" content="TaeYang. Portfolio">
+        <meta name="og:description" property="og:description" content="Creative UX&UI Front end Developer - TaeYang. Portfolio">
+        <link rel="icon" type="image/ico" href="favicon.ico" />
+        <link href="css/style.css" rel="stylesheet" />
+        <link href="css/font-awesome.min.css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,600,700" rel="stylesheet">
+        <script type="text/javascript" src="https://www.google-analytics.com/analytics.js"></script>
+        <script type="text/javascript" src="common/lib/jquery.min.js"></script>
+        <script type="text/javascript" src="common/lib/plugins.js"></script>
+        <script type="text/javascript" src="common/js/common.min.js"></script>
+    </head>
+    <body>
+        <div id="mcursor">
+            <div id="ball">
+                <div id="ball-loader"></div>
+            </div>
+        </div>
+    	<main>		
+            
+            <div class="cd-index cd-main-content">
+                <span class="progressbar black" id="scrollBar"></span>
+                
+                <div id="page-content" class="black">
+                    <!-- Header -->
+                    <header class="classic-menu">
+                        <div id="header-container">
+                            <div id="logo" class="hide-ball">
+                                <a class="ajax-link" data-type="page-transition" href="index.html">TaeYang.</a>
+                            </div>
+
+                            <nav> 
+                                <div class="nav-height">
+                                    <div class="outer">
+                                        <div class="inner">           
+                                            <ul data-breakpoint="1025" class="flexnav">
+                                                <li class="link menu-timeline active"><a class="link" href="index.html">Home</a></li>
+                                                <li class="link menu-timeline"><a class="ajax-link link" data-type="page-transition" href="about.html">About</a></li>                        
+                                                <li class="link menu-timeline"><a class="ajax-link link" data-type="page-transition" href="contact.html">Contact</a></li>               
+                                            </ul>            
+                                        </div>
+                                    </div> 
+                                </div>          
+                            </nav>
+                            <div id="burger-wrapper" class="parallax-wrap">
+                                <div id="menu-burger" class="parallax-element">
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                    <!--/Header -->       
+                    
+                    <div id="main">
+                        <div id="Mwork">
+                            <div id="Mwork-styles">
+                                <div id="Mwork-caption" class="viewport">
+                                    <div class="inner">
+                                        <h1 class="Mwork-subtitle">Get in Touch</h1> 
+                                    </div>
+                                    <h2 class="Mwork-subtext"><a href="mailto:kimsun1410@naver.com" target="_top" class="sendmail-btn">Send E-mail to kimsun1410@naver.com</a></h2>
+                                </div>                                            
+                            </div>
+                        </div>                     
+                             
+                        <div id="main-content">
+                        	<div id="main-page-content">
+                                <div class="vc_row row_padding_bottom">
+                                    <div class="container">
+                                        <div class="one_half has-animation" data-delay="150">
+                                        	<div class="clapat-icon">
+                                                <i class="fa fa-map-marker fa-2x" aria-hidden="true"></i>
+                                                <h6 class="noto4">서울특별시 구로구 항동로 43 하버라인3단지 303동 1204호</h6>
+                                            	<p>Address</p> 
+                                            </div>
+                                            <div class="clapat-icon">
+                                                <i class="fa fa-phone fa-2x" aria-hidden="true"></i>
+                                                <h6>+82) 10-5140-6324</h6>
+                                            	<p>Phone</p>  
+                                            </div>                                 
+                                        </div>
+                                        
+                                        <div class="one_half last has-animation" data-delay="200">
+                                            <div id="contact-formular">
+                                                <div id="message"></div>
+                                                <form method="post" action="" name="contactform" id="contactform">    
+                                                    <div class="name-box">        
+                                                        <input name="name" type="text" id="name" size="30"  onfocus="if(this.value == 'Full Name') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Full Name'; }" value="Full Name" ><label class="input_label"></label>
+                                                    </div>                                                        
+                                                    <div class="email-box">
+                                                        <input name="email" type="text" id="email" size="30" onfocus="if(this.value == 'E-mail') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'E-mail'; }" value="E-mail" ><label class="input_label"></label>
+                                                    </div>                            
+                                                    <div class="message-box">
+                                                        <textarea name="comments" cols="40" rows="4" id="comments" onfocus="if(this.value == 'Your Message') { this.value = ''; }" onblur="if(this.value == '') { this.value = 'Your Message'; }" >Your Message</textarea><label class="input_label slow"></label>
+                                                    </div>                             
+                                                     <div class="submit-box">             
+                                                        <input type="submit" class="send_message clapat-button outline link" id="submit" value="Submit" /> 
+                                                    </div>
+                                                </form>                                               
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </div>
+                            </div>           
+                        </div>
+                    </div>
+                    
+                    <!-- Footer -->
+                    <footer class="hidden">         
+                        <div id="footer-container">
+                            <div class="copyright-wrap">                
+                                <div class="copyright-icon"><i class="fa fa-copyright" aria-hidden="true"></i></div>
+                                <div class="copyright-text">Copyright</div>             
+                            </div>
+                            <div class="socials-wrap">            	
+                                <a class="link" href="javascript:void(0);"><div class="socials-icon"><i class="fa fa-arrow-up" aria-hidden="true"></i></div>
+                                <div class="socials-text">Go to the top</div></a>        
+                            </div>
+                        </div>
+                    </footer>
+                    <!--/Footer -->
+                </div>    
+       		</div>
+    	</main> 
+        
+        <div class="cd-cover-layer"></div>
+    </body>
+</html>
